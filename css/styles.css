@@ -7,7 +7,7 @@
 body {
 	/* 【English】Specify an arbitrary background color or background image.
 	   【日本語】任意の背景色/背景画像を指定してください。 */
-	background-color: #ff9;
+	background-color: #fff;
 	/*background-image: url("img/sample.jpg");*/
 	/*background-size: cover;*/
 	color: #000;
