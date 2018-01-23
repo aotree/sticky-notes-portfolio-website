@@ -1,2 +1,2 @@
 # sticky-note-templete
-A Templete of portfolio site like sticky notes
+A template of portfolio website like sticky notes
