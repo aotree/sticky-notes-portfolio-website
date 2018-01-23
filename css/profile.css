@@ -1,0 +1,131 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Poiret+One");
+@import url("https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css");
+
+/* common */
+
+body {
+	background-image: url("img/wall_sml.jpg");
+	background-size: cover;
+	font-family: "Poiret One", "Rounded Mplus 1c", cursive;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+h1, h2 {
+	color: #fff;
+	font-size: 18px;
+	margin: 0;
+}
+
+br {
+	display: none;
+}
+
+ul {
+	list-style: none;
+	margin:0 8px;
+	padding: 0;
+	text-align: left;
+}
+
+li {
+	background-color: #fff;
+	border-radius: 3px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	font-size: 16px;
+	padding-left: 2px;
+}
+
+li:not(:first-child) {
+	margin-top: 6px;
+}
+
+div {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	color: #000;
+	line-height: 1.5;
+	text-align: center;
+}
+
+div.front {
+	border-radius: 4px;
+	margin: 10px auto 0;
+	width: 500px;
+}
+
+div.middle {
+	border-radius: 4px;
+	width: 96%;
+}
+
+/* certificate */
+
+div#certificate {
+	background: #75d16a;
+	height: 90px;
+}
+
+div#skill {
+	background: #6ca1e8;
+	height: 386px;
+}
+
+div#programming-etc {
+	background: #004c98;
+	height: 210px;
+	margin: 0 auto;
+}
+
+div#tool {
+	background: #004c98;
+	height: 60px;
+	margin: 10px auto 0;
+}
+
+div#methodology {
+	background: #004c98;
+	height: 60px;
+	margin: 10px auto 0;
+}
+
+/* footer */
+
+footer {
+	margin: 5px auto 0;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	line-height: 2;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* medium */
+
+@media (max-width: 525px) {
+
+	div#certificate, div#skill {
+		width: 95%;
+	}
+
+}
+
+/* small */
+
+@media (max-width: 415px) {
+
+	div#certificate {
+		height: 115px;
+	}
+
+	br {
+		display: inline;
+	}
+
+}

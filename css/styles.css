@@ -1,91 +1,108 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url("https://fonts.googleapis.com/css?family=Poiret+One");
+@import url("https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css");
+
+/* common */
 
 body {
-	background: #FFFEA5;
-	font-family: 'Poiret One', cursive;
-	font-size: 18px;
+	/* 【English】Specify an arbitrary background color or background image.
+	   【日本語】任意の背景色/背景画像を指定してください。 */
+	/*background-color: #ff9;*/
+	background-image: url("img/wall_sml.jpg");
+	background-size: cover;
+	color: #000;
+	font-family: "Poiret One", "Rounded Mplus 1c", cursive;
+	font-size: 22px;
+	font-weight: 100;
+}
+
+a {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	color: #000;
+	cursor: pointer;
+	display: block;
+	margin: 30px auto 0;
+	text-align: center;
+	text-decoration: none;
+	user-select: none;
+	width: 100px;
+}
+
+ul {
+	list-style: none;
+	margin:0;
+	padding: 0;
 }
 
 p {
+	font-size:22px;
 	margin-top: 20px;
 	text-align: center;
-	font-family: 'Poiret One', cursive;
-	font-size:18px;
-	color: black;
 }
 
-#programming {
-	margin: 30px auto 0;
-	width: 100px;
-	height: 100px;
+img {
+	display: block;
+	margin: 30px auto 5px;
+}
+
+/* menu */
+
+a#link1 {
+	background: #75d16a;
 	border-radius: 0%;
-	background: #75D16A;
-	text-align: center;
+	height: 100px;
 	line-height: 100px;
-	color: black;
-	cursor: pointer;
-	user-select: none;
 }
 
-#programming:hover {
-	-moz-transform: rotate(-3deg);
-	-webkit-transform: rotate(-3deg);
+a#link1:hover {
 	transform: rotate(-3deg);
 }
 
-#blog {
-	margin: 30px auto 0;
-	width: 100px;
-	height: 100px;
+a#link2 {
+	background: #6ca1e8;
 	border-radius: 100%;
-	background: #6CA1E8;
-	text-align: center;
+	height: 100px;
 	line-height: 100px;
-	color: black;
-	cursor: pointer;
-	user-select: none;
 }
 
-#blog:hover {
-	margin-top: 33px;
-	width: 97px;
+a#link2:hover {
 	height: 97px;
 	line-height: 97px;
+	margin-top: 33px;
+	width: 97px;
 }
 
-#music {
-	margin: 30px auto 0;
-	width: 100px;
-	height: 50px;
+a#link3 {
+	background: #ffccff;
 	border-radius: 0%;
-	background: white;
-	text-align: center;
+	height: 50px;
 	line-height: 50px;
-	color: black;
-	cursor: pointer;
-	user-select: none;
 }
 
-#music:hover {
+a#link3:hover {
 	width: 110px;
 }
 
-#illustration {
-	margin: 30px auto 0;
-	width: 100px;
-	height: 125px;
+a#link4 {
+	background: #fa0;
 	border-radius: 0%;
-	background: orange;
-	text-align: center;
+	height: 125px;
 	line-height: 125px;
-	color: black;
-	cursor: pointer;
-	user-select: none;
 }
 
-#illustration:hover {
-	margin-top: 40px;
+a#link4:hover {
 	height: 115px;
 	line-height: 115px;
+	margin-top: 40px;
+}
+
+a#link5 {
+	background: #ff7;
+	border-radius: 0%;
+	height: 60px;
+	line-height: 60px;
+}
+
+a#link5:hover {
+	transform: rotate(3deg);
 }
