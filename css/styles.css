@@ -7,9 +7,9 @@
 body {
 	/* 【English】Specify an arbitrary background color or background image.
 	   【日本語】任意の背景色/背景画像を指定してください。 */
-	/*background-color: #ff9;*/
-	background-image: url("img/wall_sml.jpg");
-	background-size: cover;
+	background-color: #ff9;
+	/*background-image: url("img/sample.jpg");*/
+	/*background-size: cover;*/
 	color: #000;
 	font-family: "Poiret One", "Rounded Mplus 1c", cursive;
 	font-size: 22px;
